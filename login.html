@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Login Form - Cactus & co</title>
+    <img src="Tavis.jpg" alt="Utopia picture">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #f4f4f4;
+            background-color: #2c2c2c; 
+            color: #fff; 
         }
-       
+
         header {
-            background-color: #333;
-            color: white;
+            background-color: #1a1a1a;
+            color: #ff7700; 
             padding: 20px;
             text-align: center;
         }
 
         h1 {
-            font-family: cursive;
+            font-family: 'Copperplate Gothic Bold', sans-serif; 
+            letter-spacing: 2px;
+            margin-bottom: 5px;
         }
 
         nav {
-            background-color: #eee;
+            background-color: #1a1a1a;
             padding: 10px;
             text-align: center;
         }
@@ -35,29 +40,29 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center; /* Center the links */
+            justify-content: center;
         }
 
         nav ul li {
             display: inline;
             margin-right: 20px;
-            border: 1px solid #ddd; /* Add borders */
+            border: 1px solid #333; 
             padding: 10px;
             border-radius: 5px;
         }
 
         nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: #ff7700; 
         }
 
         .container {
             max-width: 400px;
             margin: 20px auto;
             padding: 20px;
-            border: 1px solid #ccc;
+            border: 1px solid #4d4d4d; 
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
+            background-color: #3d3d3d; 
         }
 
         .form-group {
@@ -67,20 +72,21 @@
         label {
             display: block;
             margin-bottom: 5px;
-            color: #333;
+            color: #ff7700; 
         }
 
         .form-control {
             width: 100%;
             padding: 10px;
             box-sizing: border-box;
-            border: 1px solid #ccc;
+            border: 1px solid #4d4d4d; 
             border-radius: 4px;
             margin-bottom: 10px;
+            background-color: #2c2c2c; 
         }
 
         .btn {
-            background-color: #04AA6D;
+            background-color: #ff7700; 
             color: white;
             padding: 10px;
             border: none;
@@ -91,17 +97,16 @@
         }
 
         .btn:hover {
-            background-color: #045649;
-        }
+            background-color: #cc6600; 
 
         .signup-link {
             text-align: center;
             margin-top: 10px;
-            color: #555;
+            color: #ccc; 
         }
 
         .signup-link a {
-            color: #04AA6D;
+            color: #ff7700; 
             text-decoration: none;
         }
 
@@ -110,43 +115,66 @@
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Travy Patty & Co</h1>
-</header>
+    <header>
+        <h1>Cactus & co</h1>
+    </header>
 
-<nav>
-    <ul>
-        <li><a href="http://127.0.0.1:3000/ENSF381_assignment1/index.html">Index</a></li>
-        <li><a href="http://127.0.0.1:3000/ENSF381_assignment1/products.html">Products</a></li>
-        <li><a href="http://127.0.0.1:3000/ENSF381_assignment1/contact.html">Contact</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:3000/ENSF381_assignment1/index.html">Index</a></li>
+            <li><a href="http://127.0.0.1:3000/ENSF381_assignment1/products.html">Products</a></li>
+            <li><a href="http://127.0.0.1:3000/ENSF381_assignment1/contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-<main>
-    <div class="container">
-        <form action="">
-            <div class="form-group">
-                <label for="email">Email ID</label>
-                <input type="text" id="email" class="form-control" required>
+    <main>
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="email">Email ID</label>
+                    <input type="text" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <style> </div>style>
+            }
+            
+                .signup-link {
+                    text-align: center;
+                    margin-top: 10px;
+                    color: #ff7700; 
+                }
+            
+                .signup-link a {
+                    color: #ff7700; 
+                    text-decoration: none;
+                }
+            
+                .signup-link a:hover {
+                    text-decoration: underline;
+                }
+            
+
+            </style>
+            </style>
+            <div class="signup-link">
+                <p>New user? <a href="signup.html">Sign up here</a></p>
             </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" class="form-control" required>
-            </div>
-            <button type="submit" class="btn">Login</button>
-        </form>
-        <div class="signup-link">
-            <p>New user? <a href="signup.html">Sign up here</a></p>
         </div>
-    </div>
-</main>
+    </main>
 
-<footer>
-    <!-- Copyright notice goes e --> hello hwlo
-</footer>
+    <footer>
+        <!-- Copyright notice goes here -->
+    </footer>
 
 </body>
+
 </html>
 
