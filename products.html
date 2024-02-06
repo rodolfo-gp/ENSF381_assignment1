@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<center>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Laflamme Company</title>
+    <img src="ab67616d0000b273715973050587fe3c93033aad.jpg" style="width: 25%; max-height: 300px;">
+</head>
+</center>
 
+<center>
+<body>
+
+    <header>
+        <h1>Laflamme company</h1>
+    </header>
+    <center>
+    </center>
+    <nav>
+       <center>
+        
+    
+            <a href="http://127.0.0.1:3000/ENSF381_assignment1/index.html">Index</a>
+            <a href="http://127.0.0.1:3000/ENSF381_assignment1/login.html">Login</a>
+            <a href="http://127.0.0.1:3000/ENSF381_assignment1/contact.html">Contact</a>
+    
+
+        </center>
+   
+    </nav>
+</center>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Page - Cactus & co</title>
+    
+        
+    
+    </head>
+    
+    <body>
+    <center>
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Product Page - Cactus & co</title>
+        
+            <style>
+                body {
+                    text-align: center; /* Center the content horizontally */
+                }
+        
+                .container {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 20px; /* Adjust the gap between products */
+                    justify-content: center; /* Center the grid horizontally */
+                }
+        
+                .product {
+                    border: 2px solid #000;
+                    padding: 10px;
+                    text-align: center;
+                    margin-bottom: 20px; /* Add margin to create space between products */
+                }
+        
+                .product img {
+                    width: 100%;
+                    max-height: 150px;
+                    object-fit: cover;
+                    border-bottom: 1px solid #000;
+                    margin-bottom: 10px;
+                }
+            </style>
+        </head>
+        
+        <body>
+            <main>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="Trav2.png" alt="Product 1">
+                                <h2>Astro Bottom</h2>
+                                <p>99.99$</p>
+                                <button class="addToCartButton" onclick="addToCart('Astro Bottom')">Add to Cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="Trav3.png" alt="Product 2">
+                                <h2>STORMY LIVIN MAJOR</h2>
+                                <p>49.99$</p>
+                                <button class="addToCartButton" onclick="addToCart('STORMI LIVIN MAJOR')">Add to Cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="TravisTshirt.png" alt="Product 3">
+                                <h2>CAN YOU DO SUM FOR ME ?</h2>
+                                <p>69.99$</p>
+                                <button class="addToCartButton" onclick="addToCart('CAN YOU DO SUM FOR ME ?')">Add to Cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="Mask.png" alt="Product 4">
+                                <h2>ITS LITT!!!!!!!!!!!!</h2>
+                                <p>24.99$</p>
+                                <button class="addToCartButton" onclick="addToCart('ITS LITT')">Add to Cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </main>
+        
+            <script>
+                function addToCart(productName) {
+                    alert("Product added to cart: " + productName);
+                }
+            </script>
+        
+            <footer>
+                <p>&copy; 2024 LaFlamme Company. All Rights Reserved.</p>
+            </footer>
+        </body>
+
+</html>
